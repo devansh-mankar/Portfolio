@@ -1,0 +1,50 @@
+.wrapper {
+  .heading {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .container {
+    flex-wrap: wrap;
+    gap: 1rem;
+    .education {
+      display: flex;
+      gap: 0.5rem;
+      cursor: pointer;
+      .head {
+      }
+    }
+    .experience {
+      display: flex;
+      gap: 0.5rem;
+      cursor: pointer;
+    }
+    .qualContainer {
+      margin-top: 30px;
+      flex-basis: 100%;
+      flex-direction: column;
+      align-items: center;
+
+      .exp {
+        width: 500px;
+        gap: 1.5rem;
+        margin-bottom: 50px;
+        flex-wrap: wrap;
+        align-items: center;
+
+        text-align: center;
+        .post {
+          flex: 1;
+          text-align: left;
+        }
+        .icon {
+          cursor: pointer;
+        }
+        .desc {
+          flex: 1;
+          text-align: right;
+        }
+      }
+    }
+  }
+}

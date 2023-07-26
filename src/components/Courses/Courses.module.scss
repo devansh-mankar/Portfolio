@@ -1,0 +1,32 @@
+.wrapper {
+  margin: 100px;
+
+  .boxes {
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.6s ease-in-out;
+
+    .box {
+      @media (max-width) {
+        text-align: center;
+      }
+      display: flex;
+      flex-direction: column;
+      box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+      margin-right: 50px;
+      background-color: wheat;
+      border-radius: 10px;
+
+      .image {
+        width: 300px;
+        height: 200px;
+      }
+    }
+
+    .box:hover {
+      transform: scale(1.05);
+    }
+  }
+}
